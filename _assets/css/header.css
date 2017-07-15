@@ -1,0 +1,93 @@
+.header {
+  background-color: #4d636f;
+  border: 0;
+}
+
+.navbar-header {
+  background-color: #3a4b53;
+}
+
+.navbar-header .icon-bar {
+  background-color: #ffffff;
+}
+
+.navbar-header .navbar-brand {
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #ffffff;
+}
+
+.navbar-header .navbar-brand i {
+  padding-right: 10px;
+}
+
+.navbar-header:hover .navbar-brand,
+.dropdown:hover .dropdown-toggle {
+  background-color: #ccc !important;
+  color: #000000 !important;
+}
+
+.navbar-nav-item {
+  position: relative;
+  margin: auto;
+
+}
+
+.navbar-nav .navbar-nav-item a,
+.navbar-nav .dropdown a {
+  color: #ffffff !important;
+  padding: 15px;
+  font-size: 18px;
+  display: block;
+}
+
+.navbar-nav .navbar-nav-item a:hover,
+.navbar-nav .navbar-nav-item a:focus {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+.navbar-nav .dropdown a {
+  padding-right: 25px;
+}
+
+.dropdown-toggle-notification {
+  position: absolute;
+  background-color: #4CAF50;
+  padding: 1px 8px;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+  top: 5px;
+  left: 30px;
+}
+
+.dropdown:hover
+.dropdown-toggle-notification {
+  color: #ffffff !important;
+}
+
+.navbar-nav .dropdown-menu li a {
+  color: #000000 !important;
+}
+
+.navbar-nav .dropdown-menu li a:hover {
+  background-color: #ccc !important;
+} 
+
+
+.navbar-nav-userpic a:hover,
+.navbar-nav-userpic a:focus {
+  background-color: #ffffff !important;
+}
+
+.navbar-nav-userpic a {
+  height: 50px;
+}
+
+.navbar-nav-userpic img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+
+}
