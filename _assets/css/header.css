@@ -37,10 +37,6 @@
   color: #000000 !important;
 }
 
-.navbar-nav .navbar-nav-item-userpic:hover span {
-  color: red;
-}
-
 .navbar-nav .navbar-nav-item a,
 .navbar-nav .dropdown a {
   color: #ffffff !important;
