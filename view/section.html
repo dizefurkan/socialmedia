@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Section HTML</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <link rel="stylesheet" type="text/css" href="../_assets/css/reset.css">
+  <script src="../_assets/plugins/jquery/js/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../_assets/plugins/bootstrap/css/bootstrap.min.css">
+  <script type="text/javascript" src="../_assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../_assets/plugins/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../_assets/css/section.css">
+</head>
+<body>
+  <div class="section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3"> <!--LEFT!-->
+          <div class="section__myprofile section__box__shadow section__backgroundColor section__marginTop">
+            <h4 class="section__myprofile__title">My Profile</h4>
+            <img src="../_assets/media/avatar2.png" alt="" class="img-responsive section__myprofile__avatar">
+            <p class="section__borderBottom"></p>
+            <div class="section__myprofile__info">
+              <span class="section__myprofile__info__icon">
+                <i class="fa fa-pencil"></i>
+              </span>
+              <p class="section__myprofile__info__text">Designer, UI</p>
+            </div>
+            <div class="section__myprofile__info">
+              <span class="section__myprofile__info__icon">
+                <i class="fa fa-home"></i>
+              </span>
+              <p class="section__myprofile__info__text">London, UK</p>
+            </div>
+            <div class="section__myprofile__info">
+              <span class="section__myprofile__info__icon">
+                <i class="fa fa-birthday-cake"></i>
+              </span>
+              <p class="section__myprofile__info__text">April 1, 1988</p>
+            </div>
+          </div>
+          <div class="section__accordion panel-group section__backgroundColor" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                    <span class="panel-title-icon"><i class="fa fa-circle-o-notch"></i></span>
+                    My Group
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse1" class="panel-collapse collapse">
+                <div class="panel-body">Lorem ipsum dolor</div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                    <span class="panel-title-icon"><i class="fa fa-calendar-check-o"></i></span>
+                    My Events
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">Lorem ipsum dolor</div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                    <span class="panel-title-icon"><i class="fa fa-users"></i></span>
+                    My Photos
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="section__statusPost__album">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6">
+                        <img src="../_assets/media/lights.jpg" alt="" class="section__statusPost__album__photo img-responsive">
+                      </div>
+                      <div class="col-xs-12 col-sm-6">
+                        <img src="../_assets/media/forest.jpg" alt="" class="section__statusPost__album__photo img-responsive">
+                      </div>
+                      <div class="col-xs-12 col-sm-6">
+                        <img src="../_assets/media/nature.jpg" alt="" class="section__statusPost__album__photo img-responsive">
+                      </div>
+                      <div class="col-xs-12 col-sm-6">
+                        <img src="../_assets/media/lights.jpg" alt="" class="section__statusPost__album__photo img-responsive">
+                      </div>
+                      <div class="col-xs-12 col-sm-6">
+                        <img src="../_assets/media/forest.jpg" alt="" class="section__statusPost__album__photo img-responsive">
+                      </div>
+                      <div class="col-xs-12 col-sm-6">
+                        <img src="../_assets/media/nature.jpg" alt="" class="section__statusPost__album__photo img-responsive">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section__interests section__box__shadow section__backgroundColor">
+            <p class="section__interests__text">Interests</p>
+            <p class="section__interests__itemText">
+              <span class="section__interests__item d5">News</span>
+              <span class="section__interests__item d4">W3Schools</span>
+              <span class="section__interests__item d3">Labels</span>
+              <span class="section__interests__item d2">Games</span>
+              <span class="section__interests__item d1">Friends</span>
+              <span class="section__interests__item s">Games</span>
+              <span class="section__interests__item l1">Friends</span>
+              <span class="section__interests__item l2">Food</span>
+              <span class="section__interests__item l3">Design</span>
+              <span class="section__interests__item l4">Art</span>
+              <span class="section__interests__item l5">Photos</span>  
+            </p>
+          </div>
+          <div class="alert section__alert alert-dismissable">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">
+              <span><i class="fa fa-remove"></i></span>
+            </a>
+            <strong>Hey!</strong>
+            <p>This alert box could indicate a successful or positive action.</p>
+          </div>
+        </div> <!--LEFT! END-->
+        <div class="col-xs-12 col-sm-7"> <!--MIDDLE!-->
+          <div class="section__post section__box__shadow section__marginTop section__padding section__backgroundColor">
+            <input type="text" class="section__post__input" placeholder="Write Something; How you feel">
+            <a href="javascript:;" class="section__statusPostButton">
+              <i class="fa fa-pencil"></i>
+              Post
+            </a>
+          </div>
+          <div class="section__statusPost section__box__shadow section__backgroundColor section__padding section__marginTop clearfix">
+            <img src="../_assets/media/avatar1.png" alt="" class="img-responsive img__borderRadius img__statusPostWidth">
+            <h4 class="section__statusPost__title">John Doe</h4>
+            <span class="section__statusPost__time">1 min</span>
+            <p class="section__statusPost__text section__borderTop">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum temporibus labore cumque sed sint cum quasi excepturi alias praesentium nihil illum, voluptates sequi deserunt autem beatae unde laborum, recusandae totam.</p>
+            <div class="section__statusPost__album">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                  <img src="../_assets/media/lights.jpg" alt="" class="section__statusPost__album__photo img-responsive">
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                  <img src="../_assets/media/nature.jpg" alt="" class="section__statusPost__album__photo img-responsive">
+                </div>
+              </div>
+            </div>
+            <div class="section__statusPostButton">
+              <i class="fa fa-thumbs-up"></i>
+              Like
+            </div>
+            <div class="section__statusPostButton">
+              <i class="fa fa-comment"></i>
+              Comment
+            </div>
+          </div>
+          <div class="section__statusPost section__box__shadow section__backgroundColor section__padding section__marginTop clearfix">
+            <img src="../_assets/media/avatar3.png" alt="" class="img-responsive img__borderRadius img__statusPostWidth">
+            <h4 class="section__statusPost__title">Talha Emin Aydemir</h4>
+            <span class="section__statusPost__time">21 min</span>
+            <p class="section__statusPost__text section__borderTop">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fool. Laborum, recusandae totam.</p>
+            <div class="section__statusPostButton">
+              <i class="fa fa-thumbs-up"></i>
+              Like
+            </div>
+            <div class="section__statusPostButton">
+              <i class="fa fa-comment"></i>
+              Comment
+            </div>
+          </div>
+          <div class="section__statusPost section__box__shadow section__backgroundColor section__padding section__marginTop clearfix">
+            <img src="../_assets/media/avatar5.png" alt="" class="img-responsive img__borderRadius img__statusPostWidth">
+            <h4 class="section__statusPost__title">Arwen</h4>
+            <span class="section__statusPost__time">51 min</span>
+            <p class="section__statusPost__text section__borderTop">Aragorn...</p>
+            <div class="section__statusPost__album">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                  <img src="../_assets/media/lights.jpg" alt="" class="section__statusPost__album__photo img-responsive">
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                  <img src="../_assets/media/nature.jpg" alt="" class="section__statusPost__album__photo img-responsive">
+                </div>
+              </div>
+            </div>
+            <div class="section__statusPostButton">
+              <i class="fa fa-thumbs-up"></i>
+              Like
+            </div>
+            <div class="section__statusPostButton">
+              <i class="fa fa-comment"></i>
+              Comment
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-2"> <!--RIGHT!-->
+          <div class="section__event section__padding section__box__shadow section__marginTop section__backgroundColor">
+            <p class="textAlignCenter">Up Coming Events:</p>
+            <img src="../_assets/media/forest.jpg" alt="" class="img-responsive">
+            <p class="section__event__title textAlignCenter textStrong upMargin">Holiday</p>
+            <p class="section__event__title textAlignCenter upMargin">Friday 15:00</p>
+            <div class="section__eventButton">Info</div>
+          </div>
+          <div class="section__request section__padding section__box__shadow section__marginTop section__backgroundColor clearfix">
+            <p class="textAlignCenter">Friend Request</p>
+            <img src="../_assets/media/avatar5.png" alt="" class="img-responsive section__request__img">
+            <p class="textAlignCenter">Lana Del Rey</p>
+            <div class="section__requestButton accept">
+              <i class="fa fa-check"></i>
+            </div>
+            <div class="section__requestButton decline">
+              <i class="fa fa-remove"></i>
+            </div>
+          </div>
+          <div class="section__ads section__padding section__box__shadow section__marginTop section__backgroundColor">
+            <p class="textAlignCenter pUpMargin">ADS</p>
+          </div>
+          <div class="section__icon section__padding section__box__shadow section__marginTop section__backgroundColor">
+            <span class="section__icon__span textAlignCenter">
+              <i class="fa fa-bug"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
