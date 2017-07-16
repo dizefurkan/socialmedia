@@ -130,12 +130,12 @@
     font-size: 18px;
   }
 
-  .navbar-nav-item-userpic .white {
+  .navbar-nav-item-userpic {
     color: #ffffff;
   }
 
-  .navbar-nav-item-userpic:hover .navbar-nav-item-userpic .white,
-  .navbar-nav-item-userpic:focus .navbar-nav-item-userpic .white{
+  .navbar-nav .navbar-nav-item-userpic:hover,
+  .navbar-nav .navbar-nav-item-userpic:focus {
     color: #000000 !important;
   }
 
@@ -145,11 +145,6 @@
 
   .dropdown-toggle-notification {
     margin-left: -5px;
-  }
-
-  .navbar-nav .border {
-    /*border-bottom: 1px solid #343434;*/
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
   }
 
   .navbar-nav-item-icon {
